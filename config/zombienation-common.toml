@@ -1,0 +1,62 @@
+
+[General]
+	#Do modded zombies burn at day (not affects vanilla zombies)?
+	burnAtDay = false
+	#Are hazmat zombies immune to potions?
+	hazmatSuitProtectsFromPotions = true
+	#Do zombie warriors have enchanted iron swords?
+	warriorsHaveSwords = true
+	#Do zombie miners have iron pickaxes?
+	minersHavePickaxes = true
+
+[Spawn]
+	#BiomeDictionary types to include
+	include = ["OVERWORLD"]
+	#Biomes where frozen lumberjacks will spawn:
+	frozenLumberjackBiomes = ["SNOWY"]
+	#Tough zombie (warriors, miners) max count in group (0-16, vanilla zombies == 4)
+	#Range: 0 ~ 16
+	maxGroupTough = 2
+	#Frozen lumberjacks max count in group, 0-16, vanilla zombies == 4
+	#Range: 0 ~ 16
+	maxGroupFrozenLumberjacks = 4
+	#Normal zombie max count in group (0-16, vanilla zombies == 4)
+	#Range: 0 ~ 16
+	maxGroupNormal = 4
+	#Normal zombie spawn weight (0-1000, vanilla zombies == 100
+	#Range: 0 ~ 1000
+	spawnWeightNormal = 100
+	#BiomeDictionary types to exclude (overrides "include")
+	exclude = ["NETHER", "END"]
+	#Normal zombie min count in group (0-16, vanilla zombies == 2)
+	#Range: 0 ~ 16
+	minGroupNormal = 2
+	#Frozen lumberjacks min count in group, 0-16, vanilla zombies == 2
+	#Range: 0 ~ 16
+	minGroupFrozenLumberjacks = 2
+	#Tough zombie (warriors, miners) spawn weight (0-1000, vanilla zombies == 100
+	#Range: 0 ~ 1000
+	spawnWeightTough = 10
+	#Tough zombie (warriors, miners) min count in group (0-16, vanilla zombies == 2)
+	#Range: 0 ~ 16
+	minGroupTough = 1
+	#Frozen lumberjack spawn weight, 0-1000, vanilla zombies == 100
+	#Range: 0 ~ 1000
+	spawnWeightFrozenLumberjack = 100
+
+[Infection]
+	#Does infection cause weakness?
+	infectionWeakness = true
+	#Does infection cause hunger?
+	infectionHunger = true
+	#Does infection cause nausea?
+	infectionNausea = true
+	#Infection duration in seconds before you die:
+	#Range: > 0
+	infectionDuration = 3600
+	#Infection chance from being hit by zombie, min: 0.0, max: 1.0, default: 0.1
+	#Range: 0.0 ~ 1.0
+	infectionChance = 0.1
+	#Spawn vanilla zombie when player dies from infection?
+	infectionDeathZombification = true
+
