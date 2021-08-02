@@ -16,10 +16,10 @@ deedBypassPermissionLevel = 2
 additionalLoyalMobs = []
 
 [explosions]
-	#Whether TNT explosions are allowed in claimed areas
-	tnt = true
 	#Whether creeper explosions are allowed in claimed areas
 	creepers = false
 	#Whether explosions caused by withers are allowed in claimed areas
 	withers = true
+	#Whether TNT explosions are allowed in claimed areas
+	tnt = true
 
