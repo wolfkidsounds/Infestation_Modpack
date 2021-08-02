@@ -149,7 +149,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 5
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.
@@ -212,7 +212,7 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 100
+			generation_separation = 8
 			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 			#Smaller number causes more generation, -1 to disable generation
@@ -261,7 +261,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 70
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.
@@ -320,7 +320,7 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 100
+			generation_separation = 8
 			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 			#Smaller number causes more generation, -1 to disable generation
@@ -364,7 +364,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 2
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Names of structures this mob will avoid spawning near.
@@ -417,7 +417,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 5
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Names of structures this mob will avoid spawning near.
@@ -475,7 +475,7 @@
 			needs_see_sky = true
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 15
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.
@@ -532,7 +532,7 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 100
+			generation_separation = 5
 			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = []
 			#Smaller number causes more generation, -1 to disable generation
