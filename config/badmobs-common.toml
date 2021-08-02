@@ -4859,20 +4859,6 @@
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
 		removeAggressively = false
 
-#Options for the zombiedecay mod.
-[zombiedecay]
-
-	#Spawning options for zombiedecay:decaying_zombie
-	[zombiedecay.decaying_zombie]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
-
 #Options for the valhelsia_structures mod.
 [valhelsia_structures]
 
