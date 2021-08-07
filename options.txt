@@ -33,8 +33,8 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Better-Leaves-5.2-§31.13+§o.zip"]
+incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -101,9 +101,6 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_of.key.zoom:key.keyboard.c
-key_key.village_employment.evoker_attack:key.keyboard.v
-key_key.village_employment.ravager_forward_control:key.keyboard.w
-key_key.village_employment.ravager_backward_control:key.keyboard.s
 key_key.enchdesc.show:key.keyboard.left.shift
 key_key.carry.desc:key.keyboard.left.shift
 key_key.immersivepetroleum.projector.flip:key.keyboard.m
@@ -116,16 +113,20 @@ key_key.corpse.death_history:key.keyboard.u
 key_Open the Crash Utilities Screen:key.keyboard.u:CONTROL
 key_Copy Container Class:key.keyboard.unknown
 key_Show Slot Index Tooltips:key.keyboard.unknown
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.toggle_fire_mode:key.keyboard.v
 key_key.reload:key.keyboard.r
 key_key.remove_magazine:key.keyboard.j
 key_key.equipment_menu:key.keyboard.z
 key_key.toggle_combat_mode:key.keyboard.unknown:ALT
-key_key.toastcontrol.clear:key.keyboard.j
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
+key_key.toastcontrol.clear:key.keyboard.j
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.mute_microphone:key.keyboard.m
 key_key.disable_voice_chat:key.keyboard.n
@@ -134,23 +135,18 @@ key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.endergetic.booflo_vest:key.keyboard.space
 key_key.endergetic.booflo_slam:key.keyboard.x
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.lock_rotation:key.keyboard.k
 key_key.backpack:key.keyboard.b
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.autorun:key.keyboard.caps.lock
-key_quark.keybind.lock_rotation:key.keyboard.k
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -169,6 +165,8 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_key.musicplayer.open:key.keyboard.f8
 key_key.musicplayer.pause:key.keyboard.keypad.8:ALT
@@ -206,7 +204,7 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
