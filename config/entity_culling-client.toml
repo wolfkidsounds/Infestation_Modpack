@@ -24,7 +24,7 @@ skipHiddenTileEntityRenderingBlacklist = []
 [optifineShaderOptions]
 	#No comment
 	#Range: 0.0 ~ 32.0
-	tileEntityShadowsCullingLessAggressiveModeDiff = 4.0
+	tileEntityShadowsCullingLessAggressiveModeDiff = 8.0
 	#No comment
 	entityShadowsDistanceLimited = true
 	#No comment
@@ -39,12 +39,12 @@ skipHiddenTileEntityRenderingBlacklist = []
 	entityShadowsCulling = true
 	#No comment
 	#Range: 0.0 ~ 32.0
-	entityShadowsCullingLessAggressiveModeDiff = 4.0
+	entityShadowsCullingLessAggressiveModeDiff = 8.0
 	#No comment
 	entityShadowsCullingLessAggressiveMode = true
 	#No comment
 	#Range: 0.0 ~ 64.0
-	entityShadowsMaxDistance = 4.0
+	entityShadowsMaxDistance = 6.0
 	#No comment
 	entityShadowsEnabled = true
 	#No comment
@@ -53,11 +53,11 @@ skipHiddenTileEntityRenderingBlacklist = []
 	terrainShadowsEnabled = true
 	#No comment
 	#Range: 0.0 ~ 64.0
-	terrainShadowsMaxHorizontalDistance = 8.0
+	terrainShadowsMaxHorizontalDistance = 10.0
 	#No comment
 	#Range: 0.0 ~ 64.0
-	terrainShadowsMaxVerticalDistance = 4.0
+	terrainShadowsMaxVerticalDistance = 8.0
 	#No comment
 	#Range: 0.0 ~ 64.0
-	tileEntityShadowsMaxDistance = 4.0
+	tileEntityShadowsMaxDistance = 6.0
 
