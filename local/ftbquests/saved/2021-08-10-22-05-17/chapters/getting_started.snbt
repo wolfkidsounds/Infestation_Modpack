@@ -1,0 +1,218 @@
+{
+	id: "785C40807901726B"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Something to craft with"
+			x: -13.0d
+			y: -5.0d
+			dependencies: ["2C1E9B73404AB6F8"]
+			id: "5C6E322B09E43313"
+			tasks: [{
+				id: "55CEF2C99529027B"
+				type: "item"
+				item: "stone_age:flint_workbench"
+			}]
+		}
+		{
+			title: "Gathering Basic Materials"
+			x: -14.5d
+			y: -5.0d
+			id: "2C1E9B73404AB6F8"
+			tasks: [
+				{
+					id: "4F44D8512C64E7CC"
+					type: "item"
+					title: "Any #forge:rods/wooden"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+				}
+				{
+					id: "460E97BB78A32E50"
+					type: "item"
+					title: "Any #forge:gravel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gravel"
+						}
+					}
+				}
+				{
+					id: "722B0C79DBE3310E"
+					type: "item"
+					item: "minecraft:flint"
+				}
+			]
+		}
+		{
+			title: "Wow - Bones?"
+			x: -13.0d
+			y: -3.5d
+			dependencies: ["5C6E322B09E43313"]
+			id: "0D81D161171DDEE1"
+			tasks: [{
+				id: "398257E06BA89302"
+				type: "item"
+				title: "Any #forge:bones"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bones"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: -6.5d
+			id: "549EF1B319FB9E3E"
+			tasks: [{
+				id: "583C601EFA280A7A"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			title: "Bone Toolkit"
+			x: -11.5d
+			y: -3.5d
+			dependencies: ["0D81D161171DDEE1"]
+			dependency_requirement: "one_completed"
+			id: "1CF2777FFA289B0F"
+			tasks: [
+				{
+					id: "4083D03508FB647E"
+					type: "item"
+					item: {
+						id: "stone_age:bone_shovel_head"
+						Count: 1b
+						tag: {
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "5FA9ECF804E2E692"
+					type: "item"
+					item: "stone_age:bone_arrow_head"
+				}
+				{
+					id: "59B9B8B9588250F1"
+					type: "item"
+					item: {
+						id: "stone_age:bone_sword_head"
+						Count: 1b
+						tag: {
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "57169C3E89CBDCC8"
+					type: "item"
+					item: {
+						id: "stone_age:bone_hoe_head"
+						Count: 1b
+						tag: {
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "463CCE57F0928D13"
+					type: "item"
+					item: {
+						id: "stone_age:bone_axe_head"
+						Count: 1b
+						tag: {
+							additionalModifiers: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Bone Tools"
+			x: -10.0d
+			y: -3.5d
+			dependencies: ["1CF2777FFA289B0F"]
+			dependency_requirement: "one_completed"
+			id: "6F36C080DDF575B8"
+			tasks: [
+				{
+					id: "156465B5B3275B54"
+					type: "item"
+					item: {
+						id: "stone_age:bone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "299562DA8D38D0CE"
+					type: "item"
+					item: {
+						id: "stone_age:bone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "212CB9CA32D159C3"
+					type: "item"
+					item: {
+						id: "stone_age:bone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "2C489D018C80634D"
+					type: "item"
+					item: {
+						id: "stone_age:bone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							additionalModifiers: { }
+						}
+					}
+				}
+				{
+					id: "7E60EEDC4418D185"
+					type: "item"
+					item: {
+						id: "stone_age:bone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							additionalModifiers: { }
+						}
+					}
+				}
+			]
+		}
+	]
+}
