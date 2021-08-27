@@ -1,0 +1,295 @@
+
+["Battle Tower"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 28
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, #structure_gel:snowy, #structure_gel:swamp, #structure_gel:savanna"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+[Castle]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 45
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, #structure_gel:snowy, !#structure_gel:mountain, !#structure_gel:snowy_mountain"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Desert Temple"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 33
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "minecraft:desert"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Desert Tomb"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 13
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "minecraft:desert"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Druid Circle"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 16
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Dungeon Variant"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 12
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = false
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = ""
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Hay Storage"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 18
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:savanna"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Ice Pit"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 28
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:snowy, #structure_gel:frozen, !#structure_gel:snowy_mountain"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Jungle Monument"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 13
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:jungle, !#structure_gel:bamboo_jungle"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Large Dungeon"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 24
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, #structure_gel:warm, !#structure_gel:mushroom, !#structure_gel:mountain"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Miners House"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 18
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "minecraft:badlands, minecraft:badlands_plateau"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Mob Tower"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 23
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, #structure_gel:snowy, #structure_gel:swamp"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Mushroom House"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 12
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "minecraft:mushroom_fields, minecraft:mushroom_field_shore"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Pillager Camp"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 38
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, #structure_gel:snowy, !#structure_gel:mountain, !#structure_gel:snowy_mountain"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Ruined Barn"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 15
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:wooded"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Ruined House"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 18
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+[Stables]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 45
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, !#structure_gel:mountain, !#structure_gel:snowy_mountain"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Tall Witch Hut"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 11
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:swamp"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Tree House"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 12
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#forge:jungle"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Watch Tower"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 24
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:neutral_temp, #structure_gel:cold, #structure_gel:snowy"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
+["Witch Tower"]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 20
+	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+	valid_dimensions = "minecraft:overworld"
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#structure_gel:spruce_forest, #structure_gel:large_spruce_forest"
+	#Chance of generating in an allowed chunk
+	#Range: 0.0 ~ 1.0
+	probability = 1.0
+
