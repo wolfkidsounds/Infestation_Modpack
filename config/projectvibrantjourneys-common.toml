@@ -90,6 +90,10 @@
 		boreal_plateau = true
 		snowy_redwoods = true
 
+		#Biome Ambience Settings
+		[Settings.Biomes."Biome Ambience"]
+			windswept_cliffs_particles = true
+
 		#Biome Weights
 		[Settings.Biomes."Biome Weights"]
 			snowy_redwoods_weight = 3

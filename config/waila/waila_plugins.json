@@ -46,6 +46,9 @@
     "show_states": false,
     "show_entities": true
   },
+  "fruittrees": {
+    "bee": true
+  },
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,

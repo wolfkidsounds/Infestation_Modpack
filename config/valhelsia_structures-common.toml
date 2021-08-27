@@ -12,6 +12,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -30,6 +32,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "taiga"]
@@ -48,6 +52,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -66,6 +72,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -84,6 +92,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest"]
@@ -102,6 +112,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["desert"]
@@ -115,6 +127,8 @@
 		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 4]
 		#Range: 0 ~ 64
 		flatness_delta = 4
+		#Dimensions in which Structures can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.castle_ruin]
 		#Biomes the structure can NOT generate in
@@ -127,6 +141,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "taiga"]
@@ -145,6 +161,8 @@
 		separation = 7
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["swamp"]
@@ -163,6 +181,8 @@
 		separation = 8
 		#Generate? [default: true]
 		generate = true
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga", "desert", "mesa", "savanna", "jungle", "icy", "swamp", "mushroom"]
