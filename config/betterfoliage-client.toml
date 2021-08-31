@@ -21,9 +21,9 @@ nVidia = false
 	saturationThreshold = 0.1
 	#Range: 0.5 ~ 1.5
 	size = 1.0
-	snowEnabled = true
+	snowEnabled = false
 	shaderWind = true
-	grassEnabled = true
+	grassEnabled = false
 	#Range: 0.1 ~ 2.5
 	heightMax = 0.8
 	useGenerated = false
@@ -40,7 +40,7 @@ nVidia = false
 	enabled = true
 
 [roundLogs]
-	connectPerpendicular = true
+	connectPerpendicular = false
 	#Range: 0.9 ~ 1.0
 	zProtection = 0.99
 	#Range: 0.0 ~ 1.0
@@ -51,7 +51,7 @@ nVidia = false
 	lenientConnect = true
 	#Range: 0.0 ~ 0.5
 	radiusLarge = 0.44
-	enabled = true
+	enabled = false
 	connectGrass = true
 	defaultY = false
 	connectSolids = false
@@ -141,7 +141,7 @@ nVidia = false
 	size = 0.75
 	opacityHack = true
 	#Range: 1.0 ~ 15.0
-	lifetime = 5.0
+	lifetime = 10.0
 	enabled = true
 	#Range: 0.01 ~ 0.15
 	speed = 0.05
