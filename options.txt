@@ -112,15 +112,10 @@ key_Show Slot Index Tooltips:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
-key_key.toggle_fire_mode:key.keyboard.v
-key_key.reload:key.keyboard.r
-key_key.remove_magazine:key.keyboard.j
-key_key.equipment_menu:key.keyboard.z
-key_key.toggle_combat_mode:key.keyboard.unknown:ALT
-key_key.toastcontrol.clear:key.keyboard.j
+key_key.storagenetwork.remote:key.keyboard.i
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
-key_key.storagenetwork.remote:key.keyboard.i
+key_key.toastcontrol.clear:key.keyboard.j
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
