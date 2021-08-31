@@ -20,6 +20,12 @@
 		#Range: 0 ~ 128
 		"Follow Range Override" = 64
 
+		#Entities in here will not have the TargetAI changed
+		[Base.Targeting."Entity Blacklist"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+			Blacklist = []
+
 [Creeper]
 	#Various changes to Creepers exploding. Ignoring Walls, Walking Fuse and smarter exploding based off explosion size
 	"Enable Creeper Swell" = true
@@ -58,11 +64,26 @@
 		"Avoid Player chance" = 1.0
 
 [Zombie]
-	"Enable Zombie AI" = true
+	"Enable Digger Zombie" = true
 
 	#No comment
-	[Zombie."Zombie AI"]
+	[Zombie."Digger Zombie"]
+		#Multiplier for digger zombies mining speed. E.g. with this set to 2, zombies will take twice the time to mine a block.
+		#Range: 0.0 ~ 128.0
+		"Digger Speed Multiplier" = 1.0
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
 		"Digger Chance" = 0.05
+		#Zombies with Digger AI will not be able to break tile entities
+		"Blacklist Tile Entities" = false
+		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable.
+		"Digger Proper Tool Only" = false
+		#Zombies with Digger AI will mine only if they have a tool in the off-hand
+		"Digger Tool Only" = false
+
+		#Blocks in here will not be minable by zombies (or will be the only minable in case it's whitelist)
+		[Zombie."Digger Zombie"."Block Blacklist"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+			Blacklist = []
 
