@@ -40,14 +40,17 @@
     "harvest_tool_new_line": false,
     "trapped_chest": true
   },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "showpasswords": true,
+    "showcustomname": true
+  },
   "waila": {
     "show_registry": false,
     "show_entity_hp": true,
     "show_states": false,
     "show_entities": true
-  },
-  "fruittrees": {
-    "bee": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
