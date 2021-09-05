@@ -33,8 +33,8 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/Stay_True_1.16.zip","file/xali\u0027s Enhanced Jungle Wood v1.1.zip","file/xali\u0027s Enchanted Books v0.7.zip","file/TZP 1.16.zip","file/Vanilla_Additions_1.8.4.zip","file/Fancy Skies [v1.3].zip","file/STONEBORN - 1.16.5 - V2.1.zip","quark:emote_resources","file/UltimaCraft_Mobs_Default_(pre.8).zip"]
-incompatibleResourcePacks:["file/xali\u0027s Enhanced Jungle Wood v1.1.zip","file/xali\u0027s Enchanted Books v0.7.zip","quark:emote_resources"]
+resourcePacks:["vanilla","mod_resources","file/Stay_True_1.16.zip","file/xali\u0027s Enhanced Jungle Wood v1.1.zip","file/xali\u0027s Enchanted Books v0.7.zip","file/TZP 1.16.zip","file/Vanilla_Additions_1.8.4.zip","file/Fancy Skies [v1.3].zip","file/STONEBORN - 1.16.5 - V2.1.zip","file/FreshAnimations_v1.3.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/Round-Trees-5.0-§31.16.2+§o.zip","file/New Ores 1.16.5 Version 3.zip"]
+incompatibleResourcePacks:["file/xali\u0027s Enhanced Jungle Wood v1.1.zip","file/xali\u0027s Enchanted Books v0.7.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -132,10 +132,10 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_weaponthrow.throw:key.keyboard.q:ALT
 key_key.cgm.reload:key.keyboard.r
 key_key.cgm.unload:key.keyboard.u
 key_key.cgm.attachments:key.keyboard.z
-key_weaponthrow.throw:key.keyboard.q:ALT
 key_key.storagenetwork.remote:key.keyboard.i
 key_key.toastcontrol.clear:key.keyboard.j
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
@@ -151,9 +151,9 @@ key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.backpack:key.keyboard.b
 key_key.endergetic.booflo_vest:key.keyboard.space
 key_key.endergetic.booflo_slam:key.keyboard.x
-key_key.backpack:key.keyboard.b
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.securitycraft.cameraZoomIn:key.keyboard.equal
 key_key.securitycraft.cameraZoomOut:key.keyboard.minus
