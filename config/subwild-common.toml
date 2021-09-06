@@ -2,7 +2,7 @@
 "Expensive Scan" = true
 #The amount of non-solid blocks in front of a cave wall at which stairs and slabs spawn at a reduced rate to avoid high density narrow caves
 #Range: 0 ~ 16
-"Slope Threshold" = 3
+"Slope Threshold" = 4
 #The dimensions in which cave biomes will generate in
 "Dimension Whitelist" = ["minecraft:overworld"]
 
@@ -12,7 +12,7 @@
 	#Enable to generate lily pads in lush, mossy and mossy rocky cave biomes.
 	"Generate Lily pads" = true
 	#Enable to generate saplings in lush and volcanic lush cave biomes.
-	"Generate Saplings" = true
+	"Generate Saplings" = false
 	#Enable to generate glowing foxfires in cave biomes.
 	"Generate Foxfires" = true
 	#Enable to generate stairs in cave biomes. Slope Generation Chance must also be above 0 for stairs to generate.
@@ -28,7 +28,7 @@
 	#Enable to generate patches (varying heights of slabs and snow) in cave biomes.
 	"Generate Patches" = true
 	#Enable to generate puddles in lush, mossy muddy, dead coral cave biomes
-	"Generate Puddles" = true
+	"Generate Puddles" = false
 	#Enable to generate floor coral in coral cave biomes.
 	"Generate Floor Coral" = true
 	#Enable to generate stone buttons in rocky cave biomes
@@ -41,7 +41,7 @@
 [Frequencies]
 	#The chance of a slab or stairs generating normally in caves. Higher numbers increase the amount of slabs/stairs/slopes. Zero should stop generating them entirely.
 	#Range: 0 ~ 8
-	"Slope Generation Chance" = 6
+	"Slope Generation Chance" = 5
 	#The chance of a slab or stairs generating when within the Slope Threshold. Should be lower than the Slope Generation Chance.
 	#Range: 0 ~ 7
 	"Slope Threshold Generation Chance" = 2
