@@ -17,7 +17,7 @@
 	#Whether to allow vanilla villagers to spawn at all. If enabled then hostile villages will get a villager spawn egg added to their loot. default: false
 	allowVanillaVillagerSpawn = false
 	#List of entity pairs which spawn in villages. Format = entity1;entity2;5;6   5 is the chance of entity2(one in five), 6 is the total weight of this whole entry to be chosen
-	villageEntityTypes = ["minecraft:zombie;minecraft:husk;3;14", "minecraft.zombie_villager;minecraft:wither_skeleton;3;8", "minecraft:vindicator;minecraft:illusioner;5;3", "minecraft:pillager;minecraft:evoker;7;7"]
+	villageEntityTypes = ["minecraft:zombie;minecraft:husk;5;5", "minecraft.zombie_villager;minecraft:wither_skeleton;5;5"]
 	#Additional structures to add as houses for spawning zombie villages, default: []. Example for bountiful and waystones support: ["bountiful:village/common/bounty_gazebo", "waystones:village/common/waystone"]
 	additionalStructures = []
 	#Set higher to increase the amount of additional structures generated, note those replace houses, default: 2
