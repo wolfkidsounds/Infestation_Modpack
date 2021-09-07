@@ -1,0 +1,9 @@
+[
+    {
+      "dimension": "minecraft:overworld",
+      "mob": "minecraft:zombie",
+      "block": ["minecraft:grass","minecraft:dirt", "biomesoplenty:dirt"],
+      "seesky": true,
+      "result": "allow"
+    }
+  ]
