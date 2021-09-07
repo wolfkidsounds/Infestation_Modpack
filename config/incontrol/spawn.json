@@ -4,6 +4,7 @@
       "mob": "minecraft:zombie",
       "block": ["minecraft:grass","minecraft:dirt", "biomesoplenty:dirt"],
       "seesky": true,
+      "canspawnhere": false,
       "result": "allow"
     }
   ]
