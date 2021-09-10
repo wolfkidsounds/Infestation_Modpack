@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "name": "day_10",
+        "conditions": {
+            "mindaycount": 10
+        }
+    },
+    {
+        "name": "day_20",
+        "conditions": {
+            "mindaycount": 20
+        }
+    },
+    {
+        "name": "day_50",
+        "conditions": {
+            "mindaycount": 50
+        }
+    },
+    {
+        "name": "day_80",
+        "conditions": {
+            "mindaycount": 80
+        }
+    },
+    {
+        "name": "day_100",
+        "conditions": {
+            "mindaycount": 100
+        }
+    },
+    {
+        "name": "day_150",
+        "conditions": {
+            "mindaycount": 150
+        }
+    },
+    {
+        "name": "day_200",
+        "conditions": {
+            "mindaycount": 200
+        }
+    }
+  ]
