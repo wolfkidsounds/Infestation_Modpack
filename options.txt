@@ -22,8 +22,8 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
-renderDistance:10
+gamma:0.49000000953674316
+renderDistance:16
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -31,10 +31,10 @@ maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
-biomeBlendRadius:2
+biomeBlendRadius:7
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/Stay_True_1.16.zip","file/xali\u0027s Enhanced Jungle Wood v1.1.zip","file/xali\u0027s Enchanted Books v0.7.zip","file/TZP 1.16.zip","file/Vanilla_Additions_1.8.4.zip","file/Fancy Skies [v1.3].zip","file/STONEBORN - 1.16.5 - V2.1.zip","file/FreshAnimations_v1.3.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/Round-Trees-5.0-§31.16.2+§o.zip","file/New Ores 1.16.5 Version 3.zip"]
-incompatibleResourcePacks:["file/xali\u0027s Enhanced Jungle Wood v1.1.zip","file/xali\u0027s Enchanted Books v0.7.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip"]
+resourcePacks:["vanilla","mod_resources","file/Stay_True_1.16.zip","file/TZP 1.16.zip","file/Vanilla_Additions_1.8.4.zip","file/STONEBORN - 1.16.5 - V2.1.zip","file/FreshAnimations_v1.3.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/Round-Trees-5.0-§31.16.2+§o.zip","file/New Ores 1.16.5 Version 3.zip","file/xali\u0027s Enchanted Books v0.8.zip"]
+incompatibleResourcePacks:["file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enchanted Books v0.8.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -53,7 +53,7 @@ chatDelay: 0.0
 chatHeightUnfocused:0.44366195797920227
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:4
+mipmapLevels:2
 useNativeTransport:true
 mainHand:right
 attackIndicator:1
@@ -129,25 +129,17 @@ key_oreexcavation.key.shape_edit:key.keyboard.b
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
-key_key.cgm.reload:key.keyboard.r
-key_key.cgm.unload:key.keyboard.u
-key_key.cgm.attachments:key.keyboard.z
 key_key.invtweaks_sort_player.desc:key.keyboard.backslash
 key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
 key_key.invtweaks_sort_either.desc:key.mouse.middle
+key_key.cgm.reload:key.keyboard.r
+key_key.cgm.unload:key.keyboard.u
+key_key.cgm.attachments:key.keyboard.z
 key_weaponthrow.throw:key.keyboard.q:ALT
 key_key.storagenetwork.remote:key.keyboard.i
 key_key.toastcontrol.clear:key.keyboard.j
-key_gui.xaero_open_map:key.keyboard.m
-key_gui.xaero_open_settings:key.keyboard.right.bracket
-key_gui.xaero_map_zoom_in:key.keyboard.unknown
-key_gui.xaero_map_zoom_out:key.keyboard.unknown
-key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.mute_microphone:key.keyboard.unknown
 key_key.disable_voice_chat:key.keyboard.n
@@ -156,6 +148,14 @@ key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
+key_gui.xaero_open_map:key.keyboard.m
+key_gui.xaero_open_settings:key.keyboard.right.bracket
+key_gui.xaero_map_zoom_in:key.keyboard.unknown
+key_gui.xaero_map_zoom_out:key.keyboard.unknown
+key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_key.endergetic.booflo_vest:key.keyboard.space
 key_key.endergetic.booflo_slam:key.keyboard.x
 key_key.backpack:key.keyboard.b
