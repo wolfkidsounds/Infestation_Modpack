@@ -2,10 +2,10 @@
 ["Hostile Villages settings"]
 	#Percentage of how likely normal,non-zombie villages are to spawn. default: 0
 	#Range: 0 ~ 100
-	vanillaVillageChance = 1
+	vanillaVillageChance = 0
 	#Set higher to increase the generated population of the hostile village, default: 5
 	#Range: 1 ~ 100
-	hostilePopulationSize = 10
+	hostilePopulationSize = 2
 	#Whether to generate extra loot for the village, default: true
 	generateLoot = true
 	#Turn on debug messages for spawning, default: false
@@ -17,7 +17,7 @@
 	#Whether to allow vanilla villagers to spawn at all. If enabled then hostile villages will get a villager spawn egg added to their loot. default: false
 	allowVanillaVillagerSpawn = false
 	#List of entity pairs which spawn in villages. Format = entity1;entity2;5;6   5 is the chance of entity2(one in five), 6 is the total weight of this whole entry to be chosen
-	villageEntityTypes = []
+	villageEntityTypes = ["minecraft:zombie;minecraft:stray;2;10", "minecraft:skeleton;minecraft:zombie;2;10", "minecraft:husk;minecraft:zombie;2;10", "minecraft:zombie;minecraft:zombie;2;10", "minecraft:stray;minecraft:wither_skeleton;2;10", "minecraft:pig;minecraft:sheep;2;1"]
 	#Additional structures to add as houses for spawning zombie villages, default: []. Example for bountiful and waystones support: ["bountiful:village/common/bounty_gazebo", "waystones:village/common/waystone"]
 	additionalStructures = []
 	#Set higher to increase the amount of additional structures generated, note those replace houses, default: 2
