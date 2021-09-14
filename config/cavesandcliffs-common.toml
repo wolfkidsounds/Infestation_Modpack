@@ -9,21 +9,29 @@
 	generateTuffBlobs = true
 
 ["World Generation Settings"]
-	#determines if dripstone caves biome should generate in the world
-	#Note: to disable ALL the biomes use hasCaveBiomes instead, don't disable all biomes manually or you will break something
-	generateDripstoneCaves = true
-	#determines if underwater carvers should spawn below oceans
-	generateUnderwaterCarvers = false
 	#determines the chance of amethyst geodes to spawn.
 	#Note: the lower the number, to common it will be, we don't recommend low values or it may cause laggy world loading
 	#Default: 53
 	#Range: 0 ~ 100
 	amethystGeodeChance = 53
+	#determines if underwater carvers should spawn below oceans
+	generateUnderwaterCarvers = false
 	#determines if lush caves biome should generate in the world
 	#Note: to disable ALL the biomes use hasCaveBiomes instead, don't disable all biomes manually or you will break something
 	generateLushCaves = true
+	#determines if dripstone caves biome should generate in the world
+	#Note: to disable ALL the biomes use hasCaveBiomes instead, don't disable all biomes manually or you will break something
+	generateDripstoneCaves = true
 
 ["Entity Settings"]
+	#determines if glow squids should generate.
+	#Note: this option exists for compatibility with Upgrade Aquatic.
+	generateGlowSquids = true
+	#determines the weight for Glow Squids to Spawn.
+	#Note: the Weight is the chance for them to spawn
+	#Default: 10
+	#Range: 0 ~ 100
+	glowSquidWeight = 10
 	#determines the weight for Axolotls to Spawn.
 	#Note: the Weight is the chance for them to spawn
 	#Default: 10
@@ -34,14 +42,6 @@
 	#Default: 10
 	#Range: 0 ~ 100
 	goatWeight = 10
-	#determines the weight for Glow Squids to Spawn.
-	#Note: the Weight is the chance for them to spawn
-	#Default: 10
-	#Range: 0 ~ 100
-	glowSquidWeight = 10
-	#determines if glow squids should generate.
-	#Note: this option exists for compatibility with Upgrade Aquatic.
-	generateGlowSquids = true
 
 ["Experimental Settings"]
 	#determines the max height for deepslate to generate.

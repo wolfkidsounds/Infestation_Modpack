@@ -3,19 +3,6 @@
 [general]
 	#Weapon Cant be thrown if it is on cooldown
 	"Not Throw If Cooldown" = true
-	#Weapons does not remove on creative
-	"Creative Spamming" = false
-
-#Client Settings
-[client]
-	#If you got rendering problems, try enabling the old rendering
-	"Use classic render" = false
-	#Charging Y Hud Offset
-	#Range: -32 ~ 32
-	Ycoord = 20
-	#Charging X Hud Offset
-	#Range: -32 ~ 32
-	Xcoord = -8
 
 #If an item is whitelisted and doesn't have damage or attack speed, this values will be assigned
 [default]
@@ -44,43 +31,51 @@
 	#Enable using all items as a weapon
 	"Throw all items" = false
 
-[fixes]
-	#Disable this if theres tossing bugs
-	"Item Physics Fix" = true
-
 [interactions]
 	#Throwing can break blocks at landing?
 	"Break Blocks" = true
 
 [multipliers]
-	#Range: 0.0 ~ 256.0
-	"Pickaxe Multiplier" = 0.2
-	#Range: 0.0 ~ 256.0
-	"Axe Multiplier" = 1.2
-	#Range: 0.0 ~ 256.0
-	"Sword Multiplier" = 1.0
-	#Range: 0.0 ~ 256.0
-	"Hoe Multiplier" = 0.5
-	#Range: 0.0 ~ 256.0
-	"Shovel Multiplier" = 0.7
-	#Range: 0.0 ~ 256.0
-	"Base Damage Multiplier" = 0.25
-	#Range: 0.0 ~ 256.0
-	"Stack Size Damage Multiplier" = 0.0
-	#Range: 0.0 ~ 256.0
-	"Modified Damage Multiplier" = 0.5
-	#Range: 0.0 ~ 64.0
-	"Base Velocity Multiplier" = 0.25
-	#Range: 0.0 ~ 64.0
-	"Stack Size Velocity Multiplier" = 0.005
-	#Range: 0.0 ~ 64.0
-	"Modified Velocity Multiplier" = 0.4
-	#Range: 0.0 ~ 256.0
-	"Base Exhaustion Multiplier" = 0.075
-	#Range: 0.0 ~ 256.0
-	"Stack Size Exhaustion Multiplier" = 0.01
-	#Range: 0.0 ~ 256.0
-	"Modified Exhaustion Multiplier" = 2.0
+
+	#Specific multipliers for tools, multitools use the average from each tool that represents
+	[multipliers.tools]
+		#Range: 0.0 ~ 256.0
+		"Pickaxe Multiplier" = 0.2
+		#Range: 0.0 ~ 256.0
+		"Axe Multiplier" = 1.2
+		#Range: 0.0 ~ 256.0
+		"Sword Multiplier" = 1.0
+		#Range: 0.0 ~ 256.0
+		"Hoe Multiplier" = 0.5
+		#Range: 0.0 ~ 256.0
+		"Shovel Multiplier" = 0.7
+
+	#Nultiplicative to the base damage of an item
+	[multipliers.damage]
+		#Range: 0.0 ~ 256.0
+		"Base Damage Multiplier" = 0.25
+		#Range: 0.0 ~ 256.0
+		"Stack Size Damage Multiplier" = 0.0
+		#Range: 0.0 ~ 256.0
+		"Modified Damage Multiplier" = 0.5
+
+	#Multiplicative to the base attack speed of the item
+	[multipliers.velocity]
+		#Range: 0.0 ~ 64.0
+		"Base Velocity Multiplier" = 0.25
+		#Range: 0.0 ~ 64.0
+		"Stack Size Velocity Multiplier" = 0.005
+		#Range: 0.0 ~ 64.0
+		"Modified Velocity Multiplier" = 0.4
+
+	#Inversely multiplicative to the base attack speed of item
+	[multipliers.exhaustion]
+		#Range: 0.0 ~ 256.0
+		"Base Exhaustion Multiplier" = 0.075
+		#Range: 0.0 ~ 256.0
+		"Stack Size Exhaustion Multiplier" = 0.01
+		#Range: 0.0 ~ 256.0
+		"Modified Exhaustion Multiplier" = 2.0
 
 #Integration with Project MMO
 [pmmo]

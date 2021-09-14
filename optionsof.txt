@@ -49,7 +49,7 @@ ofRandomEntities:true
 ofCustomFonts:true
 ofCustomColors:true
 ofCustomItems:true
-ofCustomSky:true
+ofCustomSky:false
 ofShowCapes:true
 ofNaturalTextures:true
 ofEmissiveTextures:true

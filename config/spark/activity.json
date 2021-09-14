@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "wolfkidsounds",
+      "uniqueId": "87dd8c4a-e438-4dc3-8770-a3b24746589f"
+    },
+    "time": 1631283584340,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xO0lZ977jd"
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:zombie",
+        "block": ["minecraft:grass", "minecraft:sand", "byg:peat"],
+        "seesky": true,
+        "hostile": true,
+        "canspawnhere": false,
+        "result": "allow"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:zombie",
+        "mincount": {
+            "amount": 400,
+            "perplayer": true
+          },
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:rabbit",
+        "mincount": {
+          "amount": 25,
+          "perplayer": true
+        },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:sheep",
+        "mincount": {
+            "amount": 50,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:cow",
+        "mincount": {
+            "amount": 50,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:pig",
+        "mincount": {
+            "amount": 50,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:horse",
+        "mincount": {
+            "amount": 50,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:sheep",
+        "mincount": {
+            "amount": 50,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:bee",
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:stray",
+        "mincount": {
+            "amount": 15,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:husk",
+        "mincount": {
+            "amount": 25,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:pillager",
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+          },
+        "result": "deny"
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "mob": "minecraft:wither_skeleton",
+        "mincount": {
+            "amount": 20,
+            "perplayer": true
+          },
+        "result": "deny"
+      }
+
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "mob": "minecraft:zombie",
+        "persecond": 0.2,
+        "attempts": 20,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 50
+        }
+    },
+    {
+        "phase": "day_10",
+        "mob": "minecraft:zombie",
+        "persecond": 0.2,
+        "attempts": 30,
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 20
+        }
+    },
+    {
+        "phase": "day_20",
+        "mob": "minecraft:zombie",
+        "persecond": 0.2,
+        "attempts": 30,
+        "amount": {
+            "minimum": 1,
+            "maximum": 5
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 50
+        }
+    },
+    {
+        "phase": "day_50",
+        "mob": "minecraft:zombie",
+        "persecond": 0.3,
+        "attempts": 30,
+        "amount": {
+            "minimum": 2,
+            "maximum": 10
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 100
+        }
+    },
+    {
+        "phase": "day_80",
+        "mob": "minecraft:zombie",
+        "persecond": 0.4,
+        "attempts": 30,
+        "amount": {
+            "minimum": 2,
+            "maximum": 20
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 150
+        }
+    },
+    {
+        "phase": "day_100",
+        "mob": "minecraft:zombie",
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 30
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 200
+        }
+    },
+    {
+        "phase": "day_150",
+        "mob": "minecraft:zombie",
+        "persecond": 0.4,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 30
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 250
+        }
+    },
+    {
+        "phase": "day_150",
+        "mob": "minecraft:zombie",
+        "persecond": 0.6,
+        "attempts": 50,
+        "amount": {
+            "minimum": 1,
+            "maximum": 50
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 30,
+            "maxdist": 90,
+            "minheight": 45,
+            "maxheight": 175,
+            "maxthis": 350
+        }
+    }
+  ]

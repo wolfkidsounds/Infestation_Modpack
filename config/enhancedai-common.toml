@@ -87,11 +87,11 @@
 		#Range: 0.0 ~ 1.0
 		"Digger Chance" = 0.05
 		#Zombies with Digger AI will not be able to break tile entities
-		"Blacklist Tile Entities" = false
+		"Blacklist Tile Entities" = true
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable.
-		"Digger Proper Tool Only" = false
+		"Digger Proper Tool Only" = true
 		#Zombies with Digger AI will mine only if they have a tool in the off-hand
-		"Digger Tool Only" = false
+		"Digger Tool Only" = true
 
 		#Entities that shouldn't get the Digger AI
 		[Zombie."Digger Zombie"."Entity Blacklist"]
